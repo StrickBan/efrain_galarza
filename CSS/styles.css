@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 90px;
   margin: 50px auto 0 auto;
   color: #d4f3ef;
@@ -32,7 +32,7 @@ hr {
   border-width: 5px;
   width: 8%;
   border-color: #63b7af;
-  margin: 75px auto;
+  margin: 150px auto;
 }
 
 p {
@@ -54,7 +54,7 @@ a:hover{
 .top-container {
   background-color: #63b7af;
   position: relative;
-  padding: 100px 0 50px 0;
+  padding-top: 100px;
   margin-bottom: 0;
   color: #d4f3ef;
 }
@@ -74,22 +74,35 @@ a:hover{
 }
 
 .intro {
-  width: 50%;
+  width: 30%;
   margin: auto;
+}
+
+.tree{
+  position: relative;
+  top: 4px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 50px;
+  top: 200px;
 }
 
 .top-cloud {
   position: absolute;
+  color: white;
   right: 300px;
   top: 50px;
 }
 
+.bottom-cloud2 {
+  position: absolute;
+  right: 680px;
+  bottom: 300px;
+}
 .profile-picture {
   border-radius: 50%;
   width: 150px;
