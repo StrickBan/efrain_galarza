@@ -100,7 +100,7 @@ a:hover{
 
 .bottom-cloud2 {
   position: absolute;
-  right: 680px;
+  right: 700px;
   bottom: 300px;
 }
 .profile-picture {
@@ -109,14 +109,14 @@ a:hover{
 }
 
 .left-picture {
-  width: 5%;
+  width: 20%;
   float: left;
   margin-right: 25px;
 }
 
 /* clear to avoid wrapping with float*/
 .right-picture {
-  width: 5%;
+  width: 20%;
   float: right;
   margin-left: 25px;
 }
@@ -126,6 +126,14 @@ a:hover{
   margin: 50px auto 50px auto;
   text-align: left;
   /*line height is spacing*/
+}
+
+.yt-link{
+  font-family: Montserrat;
+}
+
+.yt-link:hover{
+  color: #11999E;
 }
 
 .btn{
