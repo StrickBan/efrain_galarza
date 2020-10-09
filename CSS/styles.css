@@ -108,14 +108,14 @@ a:hover{
   width: 150px;
 }
 
-.computer-picture {
+.left-picture {
   width: 20%;
   float: left;
   margin-right: 25px;
 }
 
 /* clear to avoid wrapping with float*/
-.phone-picture {
+.right-picture {
   width: 20%;
   float: right;
   margin-left: 25px;
