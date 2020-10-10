@@ -40,15 +40,14 @@ p {
 }
 
 a {
-  color:#029079;
+  color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-
 }
 
-a:hover{
-  color:#EAF6F6;
+a:hover {
+  color: #029079;
 }
 
 .top-container {
@@ -78,7 +77,7 @@ a:hover{
   margin: auto;
 }
 
-.tree{
+.tree {
   position: relative;
   top: 4px;
   margin-bottom: 0;
@@ -103,6 +102,7 @@ a:hover{
   right: 700px;
   bottom: 300px;
 }
+
 .profile-picture {
   border-radius: 50%;
   width: 150px;
@@ -128,15 +128,13 @@ a:hover{
   /*line height is spacing*/
 }
 
-.yt-link{
-  font-family: Montserrat;
+.yt-link {
+  width: 560px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-.yt-link:hover{
-  color: #11999E;
-}
-
-.btn{
+.btn {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDDC, #11999E);
   background-image: -moz-linear-gradient(top, #11CDDC, #11999E);
@@ -159,7 +157,7 @@ a:hover{
   text-align: center;
 }
 
-.btn:hover{
+.btn:hover {
   border: solid #2BC4AF 1px;
   background: #30E3CB;
   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
@@ -179,7 +177,7 @@ a:hover{
 }
 
 .copyright {
-  color:#029079;
+  color: #029079;
   font-size: 0.75rem;
   padding: 20px 0;
 }
